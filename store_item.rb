@@ -4,3 +4,5 @@ french_fries = {:color => "Yellow", :price => "$5.00", :taste => "salty"}
 
 p "The green onions are #{green_onions[:color]}, who would have thought."
 p "They cost #{green_onions[:price]} today and taste rather #{green_onions[:taste]}."
+
+p "The #{cotton_candy[:color]} cotton candy costs #{cotton_candy[:price]}, and tastes very #{cotton_candy[:taste]}."
