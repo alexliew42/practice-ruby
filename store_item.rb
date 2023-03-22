@@ -9,8 +9,8 @@
 
 
 class Food
-  attr_reader :color, :price, :taste
-  attr_writer :price
+  attr_accessor :price
+  attr_reader :color, :taste
 
   def initialize(input)
     @color = input[:color]
