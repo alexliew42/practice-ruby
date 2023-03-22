@@ -38,3 +38,8 @@ p cotton_candy
 p cotton_candy.color
 p cotton_candy.price
 p cotton_candy.taste
+french_fries = Food.new("Yellow", "$5.00", "Salty")
+p french_fries
+p french_fries.color
+p french_fries.price
+p french_fries.taste
