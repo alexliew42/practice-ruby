@@ -23,6 +23,10 @@ class Food
     @price
   end
 
+  def price=(new_price)
+    @price = new_price
+  end
+
   def taste
     @taste
   end
@@ -43,3 +47,6 @@ p french_fries
 p french_fries.color
 p french_fries.price
 p french_fries.taste
+
+french_fries.price=("$2.50")
+p french_fries.price
