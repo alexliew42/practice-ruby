@@ -46,14 +46,14 @@ class Manager < Employee
   end
 
   def fire_all_employees
-    # for person in @employees
-    #   person.active=("False")
-    # end
-    index = 0
-    while index < @employees.length
-      @employees[index].active=("false")
-      index += 1
+    for person in @employees
+      person.active=(false)
     end
+    # index = 0
+    # while index < @employees.length
+    #   @employees[index].active=("false")
+    #   index += 1
+    # end
   end
 
 end
