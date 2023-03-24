@@ -59,14 +59,6 @@ class Manager < Employee
 end
 
 manager = Manager.new(first_name: "Saron", last_name: "Yitbarek", salary: 100000, active: true, employees: [employee1, employee2])
-manager.print_info
-manager.send_report
-
-p employee1
-p employee2
-
-manager.give_all_raises
-manager.fire_all_employees
 
 p employee1
 p employee2

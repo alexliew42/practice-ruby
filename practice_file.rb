@@ -7,8 +7,15 @@ class Bowling
 
   def roll(array)
     array.each do |pins|
-      @score += pins
+      if pins == "-"
+        @score += 0
+      elsif pins == 'X'
+        @score 
+      else
+        @score += pins
+      end
     end
+    p @score
   end
 
   def score()
@@ -19,5 +26,7 @@ end
 
 william = Bowling.new("William")
 p william.player()
-p william.roll([4,4])
+10.times do
+  william.roll([rand(1..10), rand(1..10)])
+end
 william.score()
